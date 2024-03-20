@@ -67,3 +67,17 @@ npm run build
     </server>
   </servers>
 </settings>
+
+$HOME/.lein/profiles.clj
+{:auth {:repository-auth {#"packagecloud.*" {:username "" :password "c55bec1e45c9169112c4f562665197c3f93a5776e76c877e"}}}}
+
+$HOME/.gradle/gradle.properties
+
+mavenPassword=c55bec1e45c9169112c4f562665197c3f93a5776e76c877e
+
+packagecloud.io
+
+realm=packagecloud
+host=packagecloud.io
+user=
+password=c55bec1e45c9169112c4f562665197c3f93a5776e76c877e
