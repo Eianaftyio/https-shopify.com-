@@ -17,6 +17,7 @@ Hydrogen is Shopify’s stack for headless commerce. Hydrogen is designed to dov
 - GraphQL generator
 - TypeScript and JavaScript flavors
 - Minimal setup of components and routes
+$HOME/.m2/settings.xml
 
 ## Getting started
 
@@ -48,3 +49,21 @@ npm run dev
 ```bash
 npm run build
 ```
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+    http://maven.apache.org/xsd/settings-1.0.0.xsd">
+  <servers>
+    <server>
+      <id>packagecloud-Eianaftyio</id>
+      <configuration>
+        <httpHeaders>
+          <property>
+            <name>Authorization</name>
+            <value>Bearer c55bec1e45c9169112c4f562665197c3f93a5776e76c877e</value>
+          </property>
+        </httpHeaders>
+      </configuration>
+    </server>
+  </servers>
+</settings>
